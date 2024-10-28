@@ -1,54 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Samarian Dreams</title>
+</head>
 
-<!-- Head -->
-    <head> <!-- Le da cierta informacion al navegador de cosas que debe hacer -->
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="CSS/styles.css"/> <!-- Enlaza hoja de estilos -->
-        <title>
-            Samarian Dreams
-        </title>
-    </head>
-    
-<!-- Body -->
-    <body>
+<body>
+    <div class="hero-container">
+        <!-- Imagen de portada como fondo -->
+        <div class="image-container" id="portada">
+            <img src="imagenes/Marinka.JPG" alt="Cascadas de Marinka">
+        </div>
+
+        <!-- Header superpuesto -->
         <header>
-            <div class="image-container" id="Logo">
-                <img src="imagenes/Logo_mejorado.JPG" alt="Logo">
+            <div class="image-container" id="logo">
+                <img src="imagenes/Logo_mejorado.JPG" alt="Logo Samarian Dreams">
             </div>
         </header>
-        
-        <section id = "hero"> <!-- ID es un identificado. Debe ser unico -->
-             <div class="image-container" id="Portada"> <!-- La clase sirve para identificar elementos similares -->
-                <img src="imagenes/Marinka.JPG" alt="Portada"/> <!-- alt es el texto de imagen para cuando la imagen no pueda cargar -->
-             </div>
 
-        <div class="informacion-contenedor">
+        <!-- Contenido principal superpuesto -->
+        <div class="hero-content">
             <div class="informacion">
-                <h1> <!-- h1 es la etiqueta para titulos -->
-                    Samarian Dreams
-                </h1>
-                <p>
-                    Aventuras y sueños que perduran
-                </p>
-            </div>
-        </div>     
-
-        </section>  
-
-        <main>
-            <p>
-                Foto de portada: Cascadas de Marinka, Sierra Nevada de Santa Marta, Colombia
-                Fotografo: Aldo Daconte
-            </p>
-            
-            <ul class="social-icon">
-                <li>
-                    <a href="https://www.instagram.com/aldo_daconteb/" class="social-icon" id="instragram_foto">
-                        <img src="imagenes/instagram_logo.png" alt="foto_instagram">
+                <h1>Samarian Dreams</h1>
+                <p class="subtitle">Aventuras y sueños que perduran</p>
+                <div class="author-container">
+                    <p class="author">Aldo Daconte</p>
+                    <a href="https://www.instagram.com/aldo_daconteb/" class="social-icon">
+                        <img src="imagenes/instagram_logo.png" alt="Instagram de Aldo Daconte">
                     </a>
-                </li> <!-- 'a' es el hipervinculo -->
-            </ul>
-        </main>
-    </body>
-    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Foto de portada: Cascadas de Marinka, Sierra Nevada de Santa Marta, Colombia</p>
+        <p>Fotógrafo: Aldo Daconte</p>
+    </footer>
+</body>
 </html>
