@@ -1,4 +1,3 @@
-/* styles.css */
 * {
     margin: 0;
     padding: 0;
@@ -62,6 +61,20 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Estilos del botón de galería */
+.btn-galeria {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.btn-galeria:hover {
+    transform: scale(1.1);
+}
+
 /* Estilos del footer */
 footer {
     position: absolute;
@@ -74,8 +87,7 @@ footer {
 
 .footer-content {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .footer-info {
@@ -86,17 +98,13 @@ footer {
 }
 
 .location-info {
-    text-align: center;
+    margin-bottom: 0.25rem;
 }
 
 .photographer-info {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-}
-
-.photographer-info p {
-    margin: 0;
 }
 
 .social-icon img {
