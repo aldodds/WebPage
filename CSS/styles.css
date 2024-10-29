@@ -38,6 +38,43 @@ body {
     width: 100%;
 }
 
+/* Estilos del contenido principal */
+.informacion-contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.informacion h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.informacion p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos del botón de galería */
+.btn-galeria {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.btn-galeria:hover {
+    transform: scale(1.1);
+}
+
 /* Estilos de la galería */
 .gallery {
     display: grid;
